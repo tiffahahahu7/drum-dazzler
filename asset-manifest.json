@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/drum-dazzler/static/css/main.c8549331.css",
-    "main.js": "/drum-dazzler/static/js/main.f5a6a8cc.js",
+    "main.js": "/drum-dazzler/static/js/main.9a418f3b.js",
     "static/media/play_music.jpg": "/drum-dazzler/static/media/play_music.1d218e58b3e0116bde48.jpg",
     "index.html": "/drum-dazzler/index.html",
     "main.c8549331.css.map": "/drum-dazzler/static/css/main.c8549331.css.map",
-    "main.f5a6a8cc.js.map": "/drum-dazzler/static/js/main.f5a6a8cc.js.map"
+    "main.9a418f3b.js.map": "/drum-dazzler/static/js/main.9a418f3b.js.map"
   },
   "entrypoints": [
     "static/css/main.c8549331.css",
-    "static/js/main.f5a6a8cc.js"
+    "static/js/main.9a418f3b.js"
   ]
 }
