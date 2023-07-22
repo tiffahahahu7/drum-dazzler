@@ -5,15 +5,15 @@ function App() {
   const [pressedButton, setPressedButton] = useState(null)
 
   const buttons = [
-    { id: "heater1", key: "Q", src: "/audios/Heater-1.mp3"},
-    { id: "heater2", key: "W", src: "/audios/Heater-2.mp3"},
-    { id: "heater3", key: "E", src: "/audios/Heater-3.mp3"},
-    { id: "heater4", key: "A", src: "/audios/Heater-4.mp3"},
-    { id: "clap", key: "S", src: "/audios/Clap.mp3"},
-    { id: "open-hh", key: "D", src: "/audios/Open_HH.mp3"},
-    { id: "kick-n-hat", key: "Z", src: "/audios/Kick_n_Hat.mp3"},
-    { id: "kick", key: "X", src: "/audios/KICK.mp3", label: "X" },
-    { id: "close-hh", key: "C", src: "/audios/Closed_HH.mp3"},
+    { id: "heater1", key: "Q", src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"},
+    { id: "heater2", key: "W", src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"},
+    { id: "heater3", key: "E", src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"},
+    { id: "heater4", key: "A", src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"},
+    { id: "clap", key: "S", src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"},
+    { id: "open-hh", key: "D", src: "https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"},
+    { id: "kick-n-hat", key: "Z", src: "https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"},
+    { id: "kick", key: "X", src: "https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"},
+    { id: "close-hh", key: "C", src: "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"},
   ]
 
   function playAudio(key) {
